@@ -29,4 +29,4 @@ jobs:
           build-platform: ${{ matrix.build.platform }}
           node-version: 22.13.0
           package: true
-          build-tags: with_gvisor
+          build-tags: with_gvisor,webkit2_41
